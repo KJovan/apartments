@@ -1,0 +1,77 @@
+em
+{
+	color: white;
+}
+h1
+{
+	margin-top: 50px;
+	margin-bottom: 70px;
+	color: white;
+}
+h2
+{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: white;
+}
+hr
+{	
+	width: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #38bfdc;
+
+
+}
+table
+{	
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	margin-bottom: 20px;
+
+}
+table tr,td
+{
+	border: 1px solid #232121;
+	width: 44%;
+	padding: 16px 20px;
+	text-align: left;
+	background-color: #2e2b2c;
+}
+.btnapts
+{
+	margin-top: 10px;
+	border-radius: 0%;
+	padding: 15px;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	border-color: #2e2b2c;
+	margin-bottom: 20px;
+}
+.btnapts:hover
+{
+	transition: 0.3s ease;
+	background-color: #38bfdc;
+	color: black;
+	border-color: #38bfdc;
+}
+.icon1
+{
+	color: #38bfdc;
+}
+
+.heder
+{
+	background-color: #2e2b2c;
+	
+}
+.heder a
+{
+		color: #999596;
+}
+.heder .hsdrz
+{
+	color: white;
+}

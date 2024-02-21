@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>m4uapts.com/reservation</title>
+	<link rel="icon" type="image/x-icon" href="./images/logo.png">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/rezervacijastyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="./js/script.js"></script>
+</head>
+<body>
+	<img src="./images/logo.png" class="logo" title="m4u logo" alt="logo">
+	<hr>
+	<div class="square">
+		<div class="form">
+			<form method="post" onsubmit="check();">
+				Apartman:<br>
+				<select name="apt" required id="apts"> 
+					<option></option>
+					<option value="18" name="apt1">A1-LITE - 18eur</option>
+					<option value="20" name="apt2">A2-SILVER - 20eur</option>
+					<option value="22" name="apt3">A3-GOLD - 22eur</option>
+				</select>
+				<br>
+				Datum dolaska:<br>
+				<input type="date" id="datum"  min="2023-12-30" max="2024-01-27" required><br>
+				Broj noćenja:<br>
+				<input type="number" required id="brnoc" min="1" max="25"><br>
+				Kod za popust:<br>
+				<input type="text" id="popus"><br>
+				<button type="button" onclick="izracunaj();" class="izr">Izračunaj</button><br>
+				Cena:<br>
+				<h3 id="ukupnacena"></h3><br>
+				<div class="formbtn">
+					<button type="submit" id="btn">Rezerviši</button><br>
+					<button type="reset">Reset</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

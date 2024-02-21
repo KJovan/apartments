@@ -1,0 +1,157 @@
+em
+{
+	padding-left: 3px;
+	color: white;
+
+}
+
+
+h1
+{
+/*	margin-top: -7px;*/
+	margin-bottom: 70px;
+	color: white;
+}
+hr
+{	
+	width: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #38bfdc;
+
+
+}
+strong
+{
+	padding-left: 3px;
+}
+
+table
+{	
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	margin-bottom: 30px;
+
+}
+table tr,td
+{
+	border: 1px solid #232121;
+	width: 44%;
+	padding: 16px 20px;
+	text-align: left;
+	background-color: #2e2b2c;
+}
+.breadcrumbs a
+{
+	margin-top: 5px;
+	margin-left: 15px;
+	display: flex;
+	padding: 2px;
+	color: white;
+	width: 1%;
+}
+.breadcrumbs a:hover
+{
+	color: gray;
+}
+.breadcrumbs hr 
+{
+	margin-left: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.breadcrumbs .apt
+{
+	margin-top: 2px;
+	margin-left: 30px;
+}
+.btnapts
+{
+	margin-top: 10px;
+	border-radius: 0%;
+	padding: 15px;
+	color: white;
+	font-style: italic;
+	border-color: #2e2b2c;
+	margin-bottom: 20px;
+}
+.btnapts:hover
+{
+	transition: 0.3s ease;
+	background-color: #38bfdc;
+	color: black;
+	border-color: #38bfdc;
+}
+.gallery
+{
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+.gallery img
+{
+	width: 200px;
+	height: 140px;
+	padding: 10px;
+/*	width: 100%;*/
+
+}
+.gallery img:hover
+{
+	transition: 0.3s ease;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.glavnaslika
+{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.heder
+{
+	background-color: #2e2b2c;
+	
+}
+.heder a
+{
+		color: #999596;
+}
+.heder .hapts
+{
+	color: white;
+}
+.icon1
+{
+	color: #38bfdc;
+}
+.opis h2
+{
+	margin-top: 20px;
+	margin-bottom: 70px;
+	color: white;
+	border-bottom: 1px solid #2e2b2c;
+	border-width: medium;
+
+
+}
+@media only screen and (max-width: 900px)
+{
+	.breadcrumbs hr
+	{
+		margin-left: 27px;
+		width: 15px;
+	}
+	.breadcrumbs .apt
+	{
+		margin-top: 2px;
+	}
+	h1
+	{
+		margin-top: 12px;
+	}
+    
+}

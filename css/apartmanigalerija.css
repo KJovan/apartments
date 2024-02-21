@@ -1,0 +1,93 @@
+h1
+{
+	color: white;
+}
+
+hr
+{	
+	width: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #38bfdc;
+
+
+
+}
+
+.breadcrumbs a
+{
+	margin-top: 5px;
+	margin-left: 15px;
+	display: flex;
+	padding: 2px;
+	color: white;
+	width: 1%;
+}
+.breadcrumbs a:hover
+{
+	color: gray;
+}
+.breadcrumbs hr 
+{
+	margin-left: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.breadcrumbs .apt
+{
+	margin-top: 2px;
+	margin-left: 30px;
+}
+.breadcrumbs .aptname
+{
+
+	margin-left: 55px;
+
+}
+.breadcrumbs .hr2
+{
+	margin-left: 55px;
+}
+.glavnaslika
+{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+
+}
+
+.heder
+{
+	background-color: #2e2b2c;
+	
+}
+.heder a
+{
+		color: #999596;
+}
+.heder .hapts
+{
+	color: white;
+}
+
+@media only screen and (max-width: 900px)
+{
+	.breadcrumbs hr
+	{
+		margin-left: 27px;
+		width: 15px;
+	}
+	.breadcrumbs .apt
+	{
+		margin-top: 2px;
+	}
+	.breadcrumbs .hr2
+	{
+		margin-left: 50px;
+	}
+
+}

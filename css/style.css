@@ -1,0 +1,207 @@
+/*#2e2b2c - headboja*/
+/*#38bfdc - plavaboja*/
+/*#999596 - sivaboja*/
+/*#232121 - crna boja*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'DM Serif Display', serif;
+	text-align: center;
+	background-color: #232121;
+	color: #999596;
+
+
+}
+button
+{
+	padding: 10px 20px;
+	background-color: ;
+	border: 1px solid black;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	background-color: #2e2b2c;
+	
+
+}
+button:hover
+{
+	color: #ede9eb;
+	background-color: #373435;
+	border-color: black;
+
+}
+
+footer
+{
+	margin-top: 20px;
+	background-color: #2e2b2c;
+	text-align: left;
+	padding-top: 20px;
+	border-left: none;
+	padding: 20px 30px;
+	text-decoration: none;
+
+
+}
+
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 0px 5px 0px;
+	background-color: #2e2b2c;
+	
+
+	
+}
+
+
+li, a
+{
+/*	font-weight: 400;*/
+	font-size: 13px;	
+	text-decoration: none;
+	padding: 10px;
+
+}
+.book
+{
+	padding-top: 1px;
+}
+.book1
+{
+	background-color: #38bfdc;
+	border-color: #38bfdc;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.c-icon
+{
+	color:  #38bfdc;
+}
+.footer
+{
+	text-align: right;
+	padding-bottom: 10px;
+}
+.footer h2
+{
+	color: white;
+	margin-bottom: 2px;
+	margin-top: 5px;
+}
+
+.footer ul
+{
+	list-style: none;
+	text-decoration: none;
+
+
+}
+.footer li
+{	font-size: 15px;
+	padding: 5px;
+
+}
+
+.heder
+{
+	background-color: #2e2b2c;
+
+	
+}
+.heder a
+{
+		color: #999596;
+}
+
+
+.logo
+{
+	width: 5%;
+	cursor: pointer;
+
+}
+.mediaicons
+{ 
+	margin-top: 5px;	
+	margin-right: -2px;
+	color: white;
+	transition: 0.3s ease;
+	size: 50px;
+
+}
+.mediaicons:hover
+{
+	color: #38bfdc;
+	cursor: pointer;
+}
+.navlink
+{
+	list-style: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navlink li, a {
+	display: inline-block;
+	text-align: center;
+	padding: 0px 12px;
+	transition: all 0.3s ease 0s;
+	font-weight: bold;
+}
+.navlink a:hover
+{
+	color: #ede9eb;
+	background-color: #373435;
+}
+.poziv
+{
+	color: white;
+}
+
+@media only screen and (max-width: 900px)
+{
+	body
+	{
+		font-size: 8px;
+	}
+    li, a
+    {
+        font-size: 8px;
+       
+    }
+     .footer li
+    {
+    	font-size: 8px;
+    }
+    button
+    {
+    	padding: 5px 5px;
+    	font-size: 5px;
+
+    }
+   
+    .book
+	{
+	padding-top: 5px;
+	}
+	.mediaicons
+	{
+		margin-right: -9px;
+		margin-bottom: 0px;
+    }
+}
+/*	position: fixed;
+	top: 0;
+	width: 100%; heder*/

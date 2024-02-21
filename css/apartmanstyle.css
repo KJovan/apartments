@@ -1,0 +1,119 @@
+button
+{
+
+	
+	font-weight: bold;
+}
+em
+{
+	color: white;
+}
+h1
+{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	color: white;
+}
+hr
+{
+
+}
+table
+{
+	 border-collapse: collapse; 
+	  border-spacing: 0;
+	  margin: 10px;
+	  margin-bottom: 20px;
+
+}
+
+
+table td
+{
+	padding-top: 15px;
+
+}
+
+ul li
+{
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: auto;
+
+}
+.aptdata
+{
+	text-align: left;
+}
+.btnapts
+{
+	border-radius: 0%;
+	padding: 15px;
+	color: white;
+	font-style: italic;
+}
+.btnapts:hover
+{
+	transition: 0.3s ease;
+	background-color: #38bfdc;
+	color: black;
+	border-color: #38bfdc;
+}
+.heder
+{
+	background-color: #2e2b2c;
+	
+}
+.heder a
+{
+		color: #999596;
+}
+.heder .hapts
+{
+	color: white;
+}
+.hline
+{
+	border-bottom: 1px solid #2e2b2c;
+	border-width: medium;
+	color: white;
+	
+	
+}
+.icon1
+{
+	color: #38bfdc;
+}
+
+.main
+{
+
+	margin-top: 20px;
+	padding: 0px 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: 'DM Serif Display', serif;
+	margin-bottom: 100px;
+
+	
+}
+.tamb
+{
+
+	
+	border-radius: 1em;
+	width: 100%;
+  	max-width: 350px;
+ 	height: auto;
+ 	
+
+}
+.tamb:hover
+{
+	transition: 0.3s;
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+

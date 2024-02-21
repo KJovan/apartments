@@ -1,0 +1,142 @@
+form
+{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	vertical-align: middle;
+
+
+}
+form button
+{
+	margin-top: 10px;
+	color: white;
+	border-radius: 0;
+	margin-left: 10px;
+	border-color: #2e2b2c;
+	font-style: italic;
+	font-weight: bold;
+}
+form button:hover
+{
+	background-color: #38bfdc;
+	border-color: #38bfdc;
+	color: black;
+}
+
+h1
+{
+	margin-top: 50px;
+	margin-bottom: 70px;
+	color: white;
+}
+h3
+{
+	margin-top: 50px;
+	color: white;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+hr
+{	
+	width: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #38bfdc;
+	margin-bottom: 5px;
+
+
+
+}
+
+iframe
+{
+	margin-top: 50px;
+	border:0;
+	width: 100%;
+	height: 450px;
+	margin-bottom: 50px;
+
+}
+
+input
+{
+	width: 50%;
+	padding: 10px 10px;
+	margin: 7px;
+	background-color: #2e2b2c;
+	border: 1px solid #232121;
+	color: white;
+}
+input[type=text]:focus
+{
+	background-color: #2e2b2c;
+	
+	
+
+}
+p
+{
+	width: 30%;
+	margin-bottom: 20px;
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+textarea
+{
+	width: 50%;
+	height: 175px;
+	resize: none;
+	background-color: #2e2b2c;
+	border-color: #2e2b2c;
+	color: white;
+}
+textarea:focus
+{
+	color: white;
+}
+
+.btnapts
+{
+	margin-top: 10px;
+	border-radius: 0%;
+	padding: 15px;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	border-color: #2e2b2c;
+	margin-bottom: 20px;
+}
+.btnapts:hover
+{
+	transition: 0.3s ease;
+	background-color: #38bfdc;
+	color: black;
+	border-color: #38bfdc;
+}
+
+.heder
+{
+	background-color: #2e2b2c;
+	
+}
+.heder a
+{
+		color: #999596;
+}
+.heder .hkon
+{
+	color: white;
+}
+.kontakt
+{
+	margin-top: 5px;
+
+	
+
+.margin .kontakt
+{
+	margin-left: auto;
+	
+}
